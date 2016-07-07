@@ -1,3 +1,5 @@
+import oui from 'oui'
+
 let add = ( obj, propName, target ) => Object.defineProperty( target, propName, {
   get: _ => obj[propName],
   set: v => obj[propName] = v,

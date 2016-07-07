@@ -6,7 +6,7 @@ For all you functional haters out there. A stateful wrapper around [Oui](https:/
 npm install wearekuva/datoui
 ```
 
-```
+```javascript
 var gui = datoui()
 gui.add( obj, 'num', {min, max} )
 var folder = gui.addFolder( obj, 'num', {min, max} )
